@@ -14,7 +14,7 @@ import 'package:pdfx/src/renderer/interfaces/platform.dart';
 import 'package:synchronized/synchronized.dart';
 import 'package:universal_platform/universal_platform.dart';
 
-const MethodChannel _channel = MethodChannel('io.scer.pdf_renderer');
+const MethodChannel _channel = MethodChannel('io.battleoverflow.pdf_renderer');
 
 final Lock _lock = Lock();
 

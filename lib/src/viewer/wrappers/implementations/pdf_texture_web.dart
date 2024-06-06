@@ -96,7 +96,7 @@ class _WebTextureManager {
   static final instance = _WebTextureManager._();
 
   final _id2states = <int, List<_PdfTextureState>>{};
-  final _events = const EventChannel('io.scer.pdf_renderer/web_events');
+  final _events = const EventChannel('io.battleoverflow.pdf_renderer/web_events');
 
   void register(int id, _PdfTextureState state) =>
       _id2states.putIfAbsent(id, () => []).add(state);

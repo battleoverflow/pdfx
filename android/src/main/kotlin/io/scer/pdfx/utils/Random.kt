@@ -1,4 +1,4 @@
-package io.scer.pdfx.utils
+package io.battleoverflow.pdfx.utils
 
 import java.util.UUID.randomUUID
 

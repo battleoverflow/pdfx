@@ -1,11 +1,11 @@
-package io.scer.pdfx.resources
+package io.battleoverflow.pdfx.resources
 
 import android.annotation.TargetApi
 import android.graphics.pdf.PdfRenderer
 import android.os.Build
 import android.os.ParcelFileDescriptor
-import io.scer.pdfx.document.Document
-import io.scer.pdfx.utils.randomID
+import io.battleoverflow.pdfx.document.Document
+import io.battleoverflow.pdfx.utils.randomID
 
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
 class DocumentRepository : Repository<Document>() {

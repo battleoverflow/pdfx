@@ -1,4 +1,4 @@
-package io.scer.pdfx.document
+package io.battleoverflow.pdfx.document
 
 import android.annotation.TargetApi
 import android.graphics.pdf.PdfRenderer

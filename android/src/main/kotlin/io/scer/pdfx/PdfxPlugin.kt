@@ -1,12 +1,12 @@
-package io.scer.pdfx
+package io.battleoverflow.pdfx
 
 import android.annotation.TargetApi
 import android.os.Build
 import androidx.annotation.NonNull
 import dev.flutter.pigeon.Pigeon
 import io.flutter.embedding.engine.plugins.FlutterPlugin
-import io.scer.pdfx.resources.DocumentRepository
-import io.scer.pdfx.resources.PageRepository
+import io.battleoverflow.pdfx.resources.DocumentRepository
+import io.battleoverflow.pdfx.resources.PageRepository
 
 /**
  * PdfxPlugin

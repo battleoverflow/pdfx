@@ -10,7 +10,7 @@ import CoreGraphics
 public class SwiftPdfxPlugin: NSObject, FlutterPlugin, PdfxApi {
     let registrar: FlutterPluginRegistrar
     static let invalid = NSNumber(value: -1)
-    let dispQueue = DispatchQueue(label: "io.scer.pdf_renderer")
+    let dispQueue = DispatchQueue(label: "io.battleoverflow.pdf_renderer")
 
     let documents = DocumentRepository()
     let pages = PageRepository()

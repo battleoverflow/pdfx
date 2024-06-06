@@ -1,10 +1,10 @@
-package io.scer.pdfx.resources
+package io.battleoverflow.pdfx.resources
 
 import android.annotation.TargetApi
 import android.graphics.pdf.PdfRenderer
 import android.os.Build
-import io.scer.pdfx.document.Page
-import io.scer.pdfx.utils.randomID
+import io.battleoverflow.pdfx.document.Page
+import io.battleoverflow.pdfx.utils.randomID
 
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
 class PageRepository : Repository<Page>() {

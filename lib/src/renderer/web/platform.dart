@@ -35,7 +35,7 @@ class PdfxWeb extends PdfxPlatform {
 
   static final _eventStreamController = StreamController<int>();
   final _eventChannel =
-      const PluginEventChannel('io.scer.pdf_renderer/web_events');
+      const PluginEventChannel('io.battleoverflow.pdf_renderer/web_events');
 
   PdfDocument _open(Map<dynamic, dynamic> obj, String sourceName) =>
       PdfDocumentWeb._(

@@ -1,4 +1,4 @@
-package io.scer.pdfx.resources
+package io.battleoverflow.pdfx.resources
 
 import java.lang.Exception
 

@@ -23,7 +23,7 @@ void main() {
   setUpAll(() async {
     testData = Uint8List.fromList(imageBytes);
 
-    const MethodChannel('io.scer.pdf_renderer')
+    const MethodChannel('io.battleoverflow.pdf_renderer')
         .setMockMethodCallHandler((MethodCall methodCall) async {
       log.add(methodCall);
       switch (methodCall.method) {
