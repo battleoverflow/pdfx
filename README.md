@@ -1,12 +1,13 @@
 # PDFx
 
+> [!IMPORTANT]
+> This repository is a forked version of the PDFx project, created by [ScerIO](https://github.com/ScerIO/packages.flutter). This code is a temporary fix for Flutter to properly render PDFs when working with outdated projects.
+
 `Flutter` Render & show PDF documents on **Web**, **MacOs 10.11+**, **Android 5.0+**, **iOS** and **Windows**.
 
 Includes 2 api:
 - `renderer` Work with Pdf document, pages, render page to image
 - `viewer` Set of flutter widgets & controllers for show renderer result
-
-[![pub package](https://img.shields.io/pub/v/pdfx.svg)](https://pub.dev/packages/pdfx)
 
 ## Showcase
 
@@ -15,19 +16,17 @@ Includes 2 api:
 |![](https://raw.githubusercontent.com/ScerIO/packages.flutter/main/packages/pdfx/example/media/pinch.gif?raw=true)  | ![](https://raw.githubusercontent.com/ScerIO/packages.flutter/main/packages/pdfx/example/media/simple.gif?raw=true)  |
 
 ## Getting Started
-In your flutter project add the dependency:
-```shell
-flutter pub add pdfx
-```
 
-For web run tool for automatically add pdfjs library (CDN) in index.html:
-```shell
-flutter pub run pdfx:install_web
-```
+In your flutter project, update the `pubspec.yaml` file with the following code:
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
 
-For windows run tool automatically add override for pdfium version property in CMakeLists.txt file:
-```
-flutter pub run pdfx:install_windows
+  pdfx:
+    git:
+      url: https://github.com/battleoverflow/pdfx.git
+      ref: main
 ```
 
 ## Usage example
